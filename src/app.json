@@ -1,0 +1,39 @@
+{
+ "routes": [
+  {
+   "path": "/auth/login",
+   "pageId": "login",
+   "view": "features/starter-kit/auth/login.ui.tsx"
+  },
+  {
+   "path": "/auth/register",
+   "pageId": "signup",
+   "view": "features/starter-kit/auth/register.ui.tsx"
+  },
+  {
+   "path": "/auth/account-recovery",
+   "pageId": "accountRecovery",
+   "view": "features/starter-kit/auth/account-recovery.ui.tsx"
+  },
+  {
+   "path": "/admin(/*)",
+   "pageId": "adminDashboard",
+   "view": "features/starter-kit/admin-console/console.ui.tsx"
+  },
+  {
+   "path": "/profile",
+   "pageId": "userProfile",
+   "view": "features/starter-kit/profile/profile.ui.tsx"
+  },
+  {
+   "path": "/",
+   "pageId": "homepage",
+   "view": "features/starter-kit/homepage/home.ui.tsx"
+  },
+  {
+   "path": "/chat",
+   "pageId": "chat",
+   "view": "features/chat-feature/chat.ui.tsx"
+  }
+ ]
+}

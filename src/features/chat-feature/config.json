@@ -1,0 +1,31 @@
+{
+ "name": "Simple Chat",
+ "packageId": "@mern.ai/simple-real-time-chat",
+ "description": "It usually helps in real-time communication between two or more users.",
+ "published": true,
+ "quickStart": true,
+ "categories": [
+  "socialMedia"
+ ],
+ "sourceFiles": [
+  {
+   "uri": "chat.ui.tsx",
+   "pageId": "chat",
+   "suggestedPath": "/chat"
+  }
+ ],
+ "aliases": [
+  {
+   "fileName": "chat.ui.tsx",
+   "alias": "@mern.ai/chat"
+  },
+  {
+   "fileName": "chat.tsx",
+   "alias": "@mern.ai/chat-widget"
+  }
+ ],
+ "screenshots": [
+  "https://mern-ai-template-assets.s3.ap-south-1.amazonaws.com/real-time-chat.png"
+ ],
+ "featureTitle": "Chat Feature"
+}
